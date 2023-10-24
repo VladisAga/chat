@@ -1,0 +1,52 @@
+{
+  "chats": [
+    {
+      "chatName": "чат",
+      "authorId": 1,
+      "linkOnChat": "http://localhost:8001/posts",
+      "id": 1
+    },
+    {
+      "chatName": "чат2",
+      "authorId": 1,
+      "linkOnChat": "http://localhost:8001/posts",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "чат": [],
+      "id": 1
+    },
+    {
+      "чат2": [],
+      "id": 2
+    },
+    {
+      "чат": {
+        "id": 1,
+        "date": "2023-10-21T12:53:02.913Z",
+        "authorId": 1,
+        "text": "иии"
+      },
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Dima",
+      "avatar": "https://gravatar.com/avatar/41c796024b8af3ce30a054904bb3d25c?s=400&d=robohash&r=x"
+    },
+    {
+      "id": 2,
+      "name": "Kolya",
+      "avatar": "https://gravatar.com/avatar/986c186bfc8dc7d312dea9690b317ccc?s=400&d=robohash&r=x"
+    },
+    {
+      "id": 3,
+      "name": "Nikita",
+      "avatar": "https://gravatar.com/avatar/1fe8e900a9ea8736eda6a22d3d343215?s=400&d=robohash&r=x"
+    }
+  ]
+}
